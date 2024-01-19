@@ -1,0 +1,8 @@
+my-key-pair.pem
+news_in.pem
+temp.py
+Temp/
+code/hub/node_modules/
+code/hub/.next/
+# code/hub/pages/api/auth-old/[...nextauth].ts
+# code/hub/pages/api/hello.ts

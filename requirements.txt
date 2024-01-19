@@ -1,0 +1,8 @@
+Django
+dash
+plotly
+flask
+flask-cors
+Pandas
+fastapi
+Uvicorn
