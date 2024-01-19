@@ -6,12 +6,13 @@ from flask_cors import CORS
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/nextjs/*": {"origins": "http://localhost:3000"}})
+# app.config['APPLICATION_ROOT'] = '/app2'
 
 @app.route('/')
 def index():
     return '''
     <h1>This is the Flask App</h1>
-    <a href="/plot/"><button>Go to Plot Page</button></a>
+    <a href="/app2/plot/"><button>Go to Plot Page</button></a>
     '''
 
 @app.route('/plot/')

@@ -24,5 +24,4 @@ urlpatterns = [
     path('app1/', redirect_app1),
     path('app2/', redirect_app2),
     path('app3/', redirect_app3),
-    path('genai/home', redirect_chatbot_frontend),
 ]
